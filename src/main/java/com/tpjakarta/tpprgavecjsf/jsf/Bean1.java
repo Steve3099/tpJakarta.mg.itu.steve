@@ -9,11 +9,11 @@ import java.util.List;
 import jakarta.inject.Named;
 import jakarta.enterprise.context.RequestScoped;
 
-@Named(value = "bean")
+@Named(value = "bean1")
 @RequestScoped
-public class Bean {
+public class Bean1 {
 
-    private int nombre;
+    private int nombre = 0;
 
     public int getNombre() {
         return nombre;
@@ -31,8 +31,8 @@ public class Bean {
         }
         return l;
     }
-    
+
     public String afficher() {
-    return "affichage_4?nb="+ nombre + "&amp;faces-redirect=true";
-}
+        return "affichage_4?nb=" + nombre + "&amp;faces-redirect=true";
+    }
 }

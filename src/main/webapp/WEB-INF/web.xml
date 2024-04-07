@@ -26,6 +26,6 @@
   </session-config>
 
   <welcome-file-list>
-    <welcome-file>formulaire_3.xhtml</welcome-file>
+    <welcome-file>formulaire_4.xhtml</welcome-file>
   </welcome-file-list>
 </web-app>
