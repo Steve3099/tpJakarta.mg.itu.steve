@@ -9,7 +9,7 @@
 
     <h:body>
         <h1>Application&gt;affichage_1</h1>
-        Les nombres : <br/>
+        Les nombres après #{bean.nombre} : <br/>
         <ui:repeat value="#{bean.nombresSuivants}" var="n" varStatus="status">
             #{n + 1}#{! status.last ? ', ' : ''}
         </ui:repeat>
